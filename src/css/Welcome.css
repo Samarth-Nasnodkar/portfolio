@@ -1,0 +1,18 @@
+pre {
+  white-space: pre-line;
+}
+
+.welcome-item {
+  margin-bottom: 5px;
+}
+
+.welcome-hl {
+  /* give me a slightly orangish color */
+  color: #ffbc64;
+}
+
+.welcome-item > a {
+  color: #59bc8c;
+  border-bottom: 1px dashed #59bc8c;
+  text-decoration: none;
+}

@@ -1,0 +1,13 @@
+.ls-main {
+  display: flex;
+  flex-direction: column;
+}
+
+.ls-item:first-child {
+  margin-top: 0px;
+}
+
+.ls-item {
+  margin-top: 10px;
+  color: white;
+}

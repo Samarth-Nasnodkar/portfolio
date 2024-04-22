@@ -1,0 +1,31 @@
+.about-main {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-main p {
+  margin-top: 3px;
+}
+
+.about-main > pre {
+  white-space: pre-wrap;
+  line-height: 0.8;
+  max-width: 400px;
+  /* mask-repeat: no-repeat; */
+}
+
+.about-txt {
+  white-space: pre-wrap;
+}
+
+.about-hl {
+  color: #ffbc64;
+}
+
+.about-ghl {
+  color: #59bc8c;
+  /* border-bottom: 1px dashed #59bc8c;
+  text-decoration: none; */
+}

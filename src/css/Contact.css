@@ -1,0 +1,26 @@
+.contact-main {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.contact-main > pre {
+  padding-left: 20px;
+  white-space: pre-wrap;
+  font-size: 2px;
+  cursor: pointer;
+}
+
+.contact-linkedin:hover , .contact-gmail:hover {
+  transform: scale(1.5);
+}
+
+.contact-linkedin {
+  transition-duration: 200ms;
+  color: #369ed6;
+}
+
+.contact-gmail {
+  transition-duration: 200ms;
+  color: #2bf07d;
+}
